@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>학교종이 땡땡땡</title>
+
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&display=swap" rel="stylesheet"/>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="/favicon/favicon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <style>
+        .notice {
+            color: #17A1FA;
+        }
+    </style>
+
+</head>
+<body>
+    <div th:insert="~{/admin/admin_main.html :: mainFragment}"></div>
+
+    <div class="content">
+        <div class="notice-modify">
+
+            <!-- 타이틀 -->
+            <div class="notice-modify-title-box">
+                <div class="notice-modify-title-name-box">
+                    <span class="notice-modify-title-name">공지사항</span>
+                </div>
+            </div>
+
+            <form name="modifyForm" action="/notice/modify" method="post" autocomplete="off">
+                <input type="hidden" name="noticeCode" th:value="${noticeCode}">
+
+                <!-- 공지사항 제목 -->
+                <div class="notice-modify-name-box">
+                    <div class="notice-modify-name">제목</div>
+                    <textarea name="name" class="notice-modify-name-input">[[${name}]]</textarea>
+                </div>
+
+                <!-- 공지사항 내용 -->
+                <div class="notice-modify-content-box">
+                    <div class="notice-modify-content">내용</div>
+                    <textarea name="content" class="notice-modify-content-input">[[${content}]]</textarea>
+                </div>
+
+                <button type="button" class="notice-modify-btn" onclick="btn()">수정하기</button>
+            </form>
+
+        </div>
+    </div>
+
+    <script>
+        /* 엔터 입력시 submit 막기 */
+        document.addEventListener('keydown', function(event) {
+            if (event.keyCode === 13) {
+                event.preventDefault();
+            };
+        }, true);
+
+        /* 등록버튼 누를 시 alert */
+        function btn() {
+            if (modifyForm.content.value === "") {
+                modifyForm.content.focus();
+                alert("내용을 입력해주세요.")
+                return false;
+            } else {
+                modifyForm.submit();
+                alert("추천문구를 수정하였습니다.")
+            }
+        }
+    </script>
+
+
+</body>
+</html>

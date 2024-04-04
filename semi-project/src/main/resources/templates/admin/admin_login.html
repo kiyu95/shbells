@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>학교종이 땡땡땡</title>
+    <link rel="stylesheet" href="/css0/adminLogin.css">
+    <link rel="icon" type="image/png" href="/favicon/favicon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+    <h1>관리자 로그인</h1>
+    <form action="/login/adminLogin" method="post">
+
+        <div id="idid">
+            <h3>id  </h3>
+            <input type="text" id="id" name="adminId"/>
+        </div>
+
+        <div id="pwpw">
+            <h3>password  </h3>
+            <input type="password" id="pass" name="adminPass"/>
+        </div>
+
+
+        <input type="submit" id="login" value="LOGIN"/>
+    </form>
+
+    <script th:inline="javascript">
+        const message = [[${message}]];
+        if (message) {
+            alert(message);
+        }
+    </script>
+</body>
+</html>

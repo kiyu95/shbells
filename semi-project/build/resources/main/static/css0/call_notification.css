@@ -1,0 +1,331 @@
+
+#call{
+  background: #FFE150;
+}
+
+
+#callWord{
+  background-color: #FFE150;
+
+}
+
+.bi-whatsapp{
+  background-color: #FFE150;
+}
+
+
+#list{
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-family: Inter;
+  font-weight: 600;
+  letter-spacing: 9px;
+  word-wrap: break-word;
+
+}
+
+#manage{
+  width: 90px;
+  height: 25px;
+  right: 150px;
+  bottom: 60px;
+  position: absolute;
+
+}
+
+#asideBtn{
+  width: 8%;
+  height: 3%;
+  left: 5%;
+  top: 37%;
+  position: absolute;
+  background: #FFF8E4;
+  border: 1px black solid;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#btn1{
+  font-size: 20px;
+  background: #FFF8E4;
+  font-family: Inter;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+#asideBtn2 {
+  width: 8%;
+  height: 3%;
+  left: 5%;
+  top: 40.6%;
+  position: absolute;
+  background: white;
+  border: 1px black solid;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#btn2{
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+#notiTitle{
+  border-top: 1px black solid;
+  border-bottom: 2px black solid;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  width: 100%;
+  height: 7%;
+}
+
+#no{
+  width: 7%;
+  height: 100%;
+  background: #FFF8E4;
+  position: relative;
+  border: 1px white solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#no div{
+  width: 80px;
+  background: #FFF8E4;
+  height: 20px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  letter-spacing: 3.75px;
+  word-wrap: break-word;
+}
+
+#notiName{
+  flex: 1;
+  height: 100%;
+  background: #FFF8E4;
+  border: 1px white solid;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#notiName div{
+  flex: 1;
+  background: #FFF8E4;
+  height: 20px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  letter-spacing: 3.75px;
+  word-wrap: break-word;
+}
+
+#writer{
+  width: 10%;
+  height: 100%;
+  background: #FFF8E4;
+  border: 1px white solid;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#writer div{
+  width: 120px;
+  background: #FFF8E4;
+  height: 20px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  letter-spacing: 3.75px;
+  word-wrap: break-word;
+}
+#registDate{
+  width: 9%;
+  height: 100%;
+  background: #FFF8E4;
+  border: 1px white solid;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#registDate div{
+  width: 120px;
+  background: #FFF8E4;
+  height: 20px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  letter-spacing: 3.75px;
+  word-wrap: break-word;
+}
+
+#article {
+  gap: 10px;
+  width: 66%;
+  padding-right: 0;
+  padding-left: 0;
+  left: 49%;
+}
+
+.namelist1{
+  width: 100%;
+  height: 4.6%;
+  display: flex;
+  justify-content: flex-start; /* 왼쪽에서부터 정렬 */
+  align-content: flex-start;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+#special1{
+  text-align: center;
+  height: 20px;
+  width: 80px;
+  font-size: 18px;
+  font-family: Inter;
+}
+#special2{
+  text-align: center;
+  height: 20px;
+  width: 946px;
+  font-size: 18px;
+  border: none;
+  font-family: Inter;
+  background-color: white;
+}
+
+#special2 a{
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+#special3{
+  text-align: center;
+  height: 20px;
+  width: 120px;
+  font-size: 18px;
+  font-family: Inter;
+
+}
+#special4{
+  text-align: center;
+  height: 20px;
+  width: 118px;
+  font-size: 18px;
+  font-family: Inter;
+
+}
+
+
+/*#allPageBtn{*/
+/*  width: 600px;*/
+/*  height: 40px;*/
+/*  left: 20%;*/
+/*  position: absolute;*/
+/*  bottom: 60px;*/
+/*  display: flex;*/
+/*  gap: 20px;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*}*/
+
+/*#allPageBtn a{*/
+/*  font-size: 25px;*/
+/*  text-align: center;*/
+/*  display: block;*/
+/*}*/
+
+/*#leftBtns{*/
+/*  position: absolute;*/
+/*  left: 0;*/
+/*}*/
+
+/*#rightBtns{*/
+/*  position: absolute;*/
+/*  right: 0;*/
+/*}*/
+.paging {
+  font-size: 25px;
+  width: 98%;
+  position: absolute;
+  bottom: 12%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paging>i,
+.paging>.pages {
+  margin: 0 10px;
+}
+
+.paging>i,
+.pages>span {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.active {
+  color: black;
+  font-weight: bold;
+}
+
+#research{
+  width: 36%;
+  position: absolute;
+  bottom: 5%;
+  left: 31%;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  gap: 30px;
+}
+
+#research form{
+  width: 100%;
+
+}
+#search{
+  height: 100%;
+  border: 2px solid black;
+  font-family: Inter;
+  font-size: 20px;
+  width: 100%;
+}
+#research button{
+  flex: 1;
+  height: 100%;
+  color: #5F5F5F;
+  background-color: #e8e8e8;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 600;
+  letter-spacing: 3px;
+  word-wrap: break-word;
+  border-radius: 5px;
+  width: 23%;
+  position: absolute;
+  top: 0;
+  left: 460px;
+}
